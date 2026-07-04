@@ -1,5 +1,6 @@
 body{
     min-height: 100vh;
+    
     background: linear-gradient(135deg, #39eb92, #35e0a7) !important;
 }
 .body{
@@ -7,6 +8,7 @@ body{
     top: 30% !important;
     left: 50% !important;
     padding: 20px !important;
+    
 }
 div#main-div {
     
@@ -41,4 +43,23 @@ div#main-div {
 #main-div2 p:hover {
     cursor:pointer;
     background: #e4e4e4;
+}
+
+@media (max-width: 768px) {
+     #main-div2 {
+        max-width: 90% !important;
+        min-width: 300px !important;
+    }
+    body{
+        background: linear-gradient(135deg, #3465cf, #3cd2dd) !important;
+    }
+    div#main-div{
+        min-width: 300px !important;
+        max-width: 100% !important;
+
+
+    }
+    .body{
+        top: 20% !important;
+    }
 }

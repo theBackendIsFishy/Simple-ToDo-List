@@ -5,7 +5,7 @@ document.querySelector('#add-task').onclick = function(){
     else{
         document.querySelector('#main-div2').innerHTML += `
         <div>
-        <p class='text-left' style='display:inline-block ;min-width:78%' onclick="check(this)">${document.querySelector('#task').value}</p><span class='btn btn-outline-danger btn-sm align-top float-end' style='display:inline-block;' onclick="this.parentElement.remove()">Delete</span>
+        <p class='text-left' style='display:inline-block ;min-width:78%' onclick="check(this)">${document.querySelector('#task').value}</p><span class='btn btn-danger btn-sm align-top float-end' style='display:inline-block;' onclick="this.parentElement.remove()">Delete</span>
         <br>
         </div>
         `
