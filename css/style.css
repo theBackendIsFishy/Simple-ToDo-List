@@ -34,3 +34,11 @@ div#main-div {
      */
     box-shadow: 1px 4px 24px rgba(37,99,235,0.15) !important;
 }
+#main-div2 p{
+    max-width: 80% !important;
+    
+}
+#main-div2 p:hover {
+    cursor:pointer;
+    background: #e4e4e4;
+}
